@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dop2</title>
+    <style>
+    .over {
+        position:absolute;
+        z-index:100;  
+        margin-left: 110px;
+        margin-top: 193px;
+    }
+    
+    .under {
+        position:absolute;
+        z-index:99;
+    }
+    
+    .box {
+        position:relative;
+    }
+    </style>
 </head>
 <body>
    <table>
@@ -13,6 +30,7 @@
                <th>
     <img src="../dop 2/s5.jpg">
     <p>Формат изображения Jpeg.Размер 81.8 КБ</p>
+    <p>Общий вес составил 62 КБ &#8595;</p>
              </th>
     <th>
     <img src="s7.gif">
@@ -25,5 +43,9 @@
     </tr>
     </tbody>
     </table>
+    <div class="box">
+        <img src="../dop 2/ss5.jpg" class="under" alt="asd">
+        <img src="../dop 2/ss3.png" class="over" alt="asd">
+      </div>
 </body>
 </html>
