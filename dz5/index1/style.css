@@ -1,0 +1,26 @@
+.left{
+    background-image: url(img2.png),url(img2.png),url(img2.png),url(img2.png);
+    background-position: top left,bottom left,top right,bottom right;
+    background-repeat: no-repeat,no-repeat, no-repeat, no-repeat;
+    background-color: chocolate;
+    width: 20%;
+    float: left;
+}
+.right{
+    float: right;
+    width: 200px;
+    background-image: url(img2.png), url(img2.png);
+    background-position: top right,bottom right;
+    background-repeat: no-repeat,no-repeat;
+    background-color: antiquewhite;
+}
+.content{
+    background-image: url(img2.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-left: 20%;
+    margin-right: 200px;
+}
+.left img1.png{
+    width: 20%;
+}
