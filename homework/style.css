@@ -1,31 +1,198 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+  }
+  
+ .home{
+     float: left;
+     padding-top: 20px;
+   
+ }
+  li ul {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+margin-top: 50px;
+margin-left: -140px;
+
+
+}
+  a {text-decoration: none; 
+  }
+  .home{
+    display: block;
+    margin: 0 auto 30px
+  }
+  .home ul {
+    
+    float: right;
+    
+  }
+  .menu ul ul {
+    z-index: 20;
+    }
+    
+  .home a {
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.404);
+    color: #97908e;
+    transition: 0.8s;
+    width: 100px;
+  }
+
+  li a {
+    display: inline-block; /* Ссылка как блочный элемент */
+    color: #666; /* Цвет текста */
+    border: 0px solid #ccc;/* Рамка вокруг пунктов меню */
+    background-color: #f0f0f0; /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+   border-radius: 10px;
+   margin-left: 5px;
+  
+  }
+
+  li a:hover {
+    color: #ffe; /* Цвет текста активного пункта */
+    background-color: #5488af; /* Цвет фона активного пункта */
+  }
+  .home a:hover {background: #b1989100;}
+  .home li {
+    display: inline-block;
+    
+  }
+  li:hover ul { 
+    display: inline-block; /* При выделении пункта курсором мыши отображается подменю */
+    
+}
+.search{
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  float: right;
+  width: 200px;
+  text-align: left;
+  padding-top: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+  padding-left: 15px;
+  color:rgba(179, 172, 172, 0.897)
+}
+.lupa{
+  float: right;
+  padding-right: 20px;
+  margin-top: -7px;
+  display: block;
+}
+.lupa img{
+  height: 30px;
+  width: 30px;
+  float: right;
+  
+}
+.clearfix{
+  height: 10px;
+  clear: both;
+}
+.border_home{
+  height: 200px;
+  width: 290px;
+  margin-top: 55px;
+border-radius: 10px;
+
+}
+.border_home button{
+  display: inline;
+  height: 28px;
+  width: 90px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+  .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    float: right;
+    margin-top: 4px;
+    margin-right: 107px;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2B50";
+     position: absolute;
+  }
+  
+.info{
+  width: 400px;
+    height: 200px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -200px;
 }
 
-.container{
-width: 1140px;
-margin: 0 auto;
-background-color: white;
+.contact{
+  margin-top: 226px;
+  color: #dda794;
 }
-.logo {
-    float: left;
-    width: 15%;
-    margin-top: 20px;
-    
-    
+
+.contact_1{
+height: 150px;
+width: 190px;
+float: left;
+font-family: 'Press Start 2P';
+    font-size: 14px;
 }
-.header-right{
-    float: right;
-    width: 20%;
-    margin-top: 20px;
+.contact_1 ul li{
+  padding-top: 10px;
 }
-.header{
-    
-    margin-left: 5px;
-    margin-right: 5px;
+.link {
+  text-decoration: none;
+  color: #dda794;
+  border: none;
+  border-radius: 0%;
+  background-color: transparent;
 }
-.header-right img{
-    vertical-align: -10px;
+.contact_2{
+height: 150px;
+width: 190px;
+float: right;
+font-family: 'Press Start 2P';
+    font-size: 14px;
+}
+.contact_2 ul li{
+  padding-top: 10px;
+}
+
+.contact_3{
+height: 150px;
+width: 300px;
+float: left;
+margin-left: 40px;
+font-family: 'Press Start 2P';
+    font-size: 14px;
+}
+.contact_3 ul li{
+  padding-top: 10px;
+}
+.contact_3 img{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.applic{
+height: 150px;
+width: 190px;
+  float: right;
+}
+.applic img{
+  display: inline-block;
+width: 80px;
+padding-left: 65px;
+}
+button{
+  background-color: #233757;
+  color: white;
+  border-radius: 5px;
 }
