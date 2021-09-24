@@ -6,26 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 
+.star{
+  display: flex;
+  direction: rtl;
+  float: left;
+  unicode-bidi: bidi-override;
 
-.star>span:hover::after { content: url(img/star1.png); position: absolute;float: left; }
-
-.star>span:hover:before { content: url(img/star1.png); position: absolute;float: right;}
+  margin-left: 0px;
+}
 
 .star>span:hover::before ,
-.star>span:hover ~ span::before{  content: url(img/star1.png);
-   position: absolute;float: left; }
-
-
+.star>span:hover ~ span::before{  content: url(star1.png);
+   position: absolute;}
+  .star>span {
+    display: inline-block;
+    position: relative;
+  }
     </style>
     <title>star</title>
 </head>
 <body>
     <div class="star">
   <span>  <img src="star0.png"></span>
-<span> <img src="img/star0.png"></span>
-<span> <img src="img/star0.png"></span>
-<span> <img src="img/star0.png"></span>
-<span><img src="img/star0.png"></span>
+<span> <img src="star0.png"></span>
+<span> <img src="star0.png"></span>
+<span> <img src="star0.png"></span>
+<span><img src="star0.png"></span>
 </div>
 
 
