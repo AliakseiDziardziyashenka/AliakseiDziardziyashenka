@@ -102,7 +102,7 @@ border-radius: 10px;
 .border_home button{
   display: inline;
   height: 55px;
-  
+  width: 120px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
