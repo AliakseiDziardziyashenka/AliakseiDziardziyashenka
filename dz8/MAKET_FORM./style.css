@@ -1,0 +1,24 @@
+*{
+    margin-top: 1px;
+}
+.head,.div3,.div2,.div4{
+    float: left;
+    width: 171px;
+}
+.dov1{
+    margin-left: 190px;
+    margin-right: 10px;
+}
+.opt{
+    margin-left: 190px;
+}
+#rd{
+    margin-left: 185px;
+}
+#rd1,#rd2,#rd3{
+float: left;
+}
+#ch{
+    margin-left: 19px;
+    margin-top: 5px;
+}

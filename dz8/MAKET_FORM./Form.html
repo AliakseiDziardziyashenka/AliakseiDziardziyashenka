@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+       @media all and (max-width: 600px) {
+           *{
+               margin-top: 1px;
+               margin-left: 1px;
+               padding-left: 0px;
+               padding-right: 0px;
+           }
+    .div1,.div2,.div3{
+        float: none;
+        
+    }
+    .dov1,.opt{
+        margin-left: 1px;
+    }
+    #select{
+        width: 100%;
+    }
+    #rd{
+        margin-left: 1px;
+    }
+    #rd1,#rd2,#rd3{
+           float: none;
+       }
+
+       }
+      
+    </style>
+    <title>Form</title>
+</head>
+<body>
+    <form action="http://fe.it-academy.by/TestForm.php" method="post" и="" enctype="multipart/form-data" target="_blank">
+<div><p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+<div class="div1">
+    <div class="head" >
+    Название статьи:
+</div>
+<div  class="dov1" >
+    <input style="width: 100%;">
+</div>
+</div>
+<div>
+
+<div class="div2">
+Рубрика:
+</div>
+<div class="opt">
+    <select name="select" id="select">
+        <option value="программирование">программирование</option>
+        <option value="графика и дизайн=">графика и дизайн</option>
+        <option value="компьютерная техника=">компьютерная техника</option>
+    </select>
+</div>
+
+<div>
+    <div class="div3" >Публикация:</div>
+    <div id="rd">
+        <div id="rd1">
+        <input  type="radio" name="checked" value="var1">на сайте
+    </div>
+    <div id="rd2">
+        <input  type="radio"name="checked" value="var2">в журнале
+    </div>
+<div id="rd3">
+        <input  type="radio"name="checked" value="var3">на сайте и в журнале 
+        </div>
+    </div>
+    </div>
+    </div>
+<br>       
+ <div >
+    
+    <div class="div4">
+    Разрешить комментарии:
+    </div>
+    <div >
+        <input id="ch" type="checkbox" name="checkbox" value="var4" checked>
+    </div>
+    
+    <div>
+        Текст статьи:
+    </div>
+    <div>
+        <textarea style="width: 100%;" name="textarea" ></textarea>
+    </div>
+    <input type="submit" value="Опубликовать"> 
+</div>
+</div>
+</div>
+</div>
+</div>
