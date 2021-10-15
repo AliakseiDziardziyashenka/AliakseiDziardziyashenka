@@ -5,56 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-            .ex{
-                background: purple;
-                width: 1000px;
-                height: 400px;
-                animation: ex;
-            }
-
-@keyframes ex {
- 0% { background: purple; }
- 100% { background: red; }
-}
-.ex:hover{
-    color: seagreen;
+            body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  animation: body 4s ease infinite;
+  animation-play-state:paused;
 }
 
-        .left{
-            float: left;
-            background-color: salmon;
-            width: 200px;
-            color: seashell;
-        }
-        .right{
-            float: right;
-            width: 30%;
-            background: rgb(134, 81, 0)
-        }
-        .none{
-            float: none;
-            margin-left: 250px;
-            width: 100px;
-            background: red;
-            height: 5px;
-        }
+
+pre, code {
+  line-height: 2;
+}
+.code{
+  width: 100%;
+  position: relative;
+  width: 60%;
+  margin: 4% auto;
+  min-width: 300px;
+  overflow: hidden;
+}
+.code pre{
+  background: #eee;
+  border-radius: 6px;
+  padding: 0 20px;
+}
+
+.highlight {
+  animation: move-highlight 4s linear infinite;
+  height: 1.75rem;
+  width: 15rem;
+  background: rgba(100,100,100,0.2);
+  position: absolute;
+  top: 40px;
+  left: 2rem;
+  animation-play-state: paused;
+}
+body:hover .highlight{
+  animation-play-state: running;
+  
+}
+
+@keyframes move-highlight {
+  100% {
+    top: 17em;
+  }
+  
+}
+@keyframes body {
+  0% {
+    background: #69b7eb;
+  }
+  50% {
+    background: #b3dbd3;
+  }
+  100% {
+    background: #f1bbc4;
+  }
+}
     </style>
     <title>Document</title>
 </head>
 <body>
-    <div class="ex"> asd
-        <div class="left">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores temporibus minus veritatis fugit nam, assumenda facere aut deserunt quidem sequi rem rerum laborum pariatur asperiores aspernatur possimus earum perferendis iure?
-        </div>
-            <div class="right">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam, autem optio provident culpa tempore magnam dolore ipsam corrupti exercitationem pariatur fugiat vitae ratione hic animi doloremque et unde quasi.
-                 </div>
-                <div class="none">
-                    <line x1="0" y1="0" x2="100" y2="100" stroke="red">
-                    </line>
-                </div>
-           
-        
-    </div>
+      <div class="code">
+        <pre><code>
+          <p>aaaaaaaa</p>
+          <p>bbbbbbbb</p>
+          <p>ccccccc</p>
+           в body должен меняться цвет,но он не хочет
+        </code></pre>
+        <div class="highlight"></div>
+      </div>
+      
+      
+
 </body>
 </html>
