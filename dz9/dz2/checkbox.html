@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color:white;
+        }
+        label{
+            user-select: none;
+            position: relative;
+        }
+        label::before{
+            width: 18px;
+            height: 18px;
+            background-image: url(selection-of-funny-emoticons_23-2147587862.jpeg);
+            position: absolute;
+            background-size: 100px;
+            background-position: 21px 15px;
+        }
+        input:checked + label::before{
+            content: "";
+            background-position: -52.3px 94px;;
+        }
+        input + label::before{
+            content: "";
+            background-position: 25px 24px;
+        }
+        input{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <input type="checkbox" id="one">
+        <label for="one"></label>
+    </form>
+        
+    
+    
+</body>
+</html>
