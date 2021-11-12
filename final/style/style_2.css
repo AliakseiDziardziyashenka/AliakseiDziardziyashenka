@@ -555,6 +555,11 @@ li {
       @media all and (max-width: 1380px) {
         .catalog_menu .top_catalog h1 {
           margin-bottom: 7px; } }
+      .catalog_menu .top_catalog h1:hover {
+        -webkit-box-shadow: 12px 12px 2px 1px rgba(96, 96, 128, 0.315);
+                box-shadow: 12px 12px 2px 1px rgba(96, 96, 128, 0.315);
+        -webkit-transition: 0.4s;
+        transition: 0.4s; }
     .catalog_menu .top_catalog .grup {
       display: -webkit-box;
       display: -ms-flexbox;

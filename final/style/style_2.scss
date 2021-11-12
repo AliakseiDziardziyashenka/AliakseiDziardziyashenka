@@ -573,6 +573,10 @@ li {
             @include media(1380px) {
                 margin-bottom: 7px;
             }
+            &:hover{
+               box-shadow:  12px 12px 2px 1px rgba(96, 96, 128, 0.315);
+               transition: 0.4s;
+            }
         }
         & .grup {
             display: flex;
