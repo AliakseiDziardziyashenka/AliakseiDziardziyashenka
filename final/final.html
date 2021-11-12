@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>SNEAKER</title>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="logo">
+            <h1>
+                SNEAKER<br>
+                SPACE.
+            </h1>
+            <h3>
+                Веб-сайт и мобильное приложение<br>
+                интернет-магазина кроссовок
+            </h3>
+        </div>
+        <div class="menu">
+            <div class="menu_top">
+                <h1>
+                    SNEAKER<br>
+                    SPACE.
+                </h1>
+                <ul>
+                    <li><a id="navigation__link" href="page2.html">Все товары</a></li>
+                    <li><a id="navigation__link" href="page2.html">Женские</a></li>
+                    <li><a id="navigation__link" href="page3.html">Мужские</a></li>
+                    <li><a id="navigation__link" href="page5.html">Скидки</a></li>
+                    <li><a id="navigation__link" href="page5.html">Бренды</a></li>
+                    <li><a id="navigation__link" href="page5.html" >Контакты</a></li>
+                </ul>
+                <div>
+                    <a href="page4.html"><img src="img/search.svg" alt="search"></a>
+                    <a href="page4.html" id="bac"><img src="img/pouch.svg" alt="pouch">
+                        <p>0</p>
+                    </a>
+                    <a href="page4.html"><img src="img/like.svg" alt="like"></a>
+
+                    <div class="popup-user">
+                        <div>
+                            <input type="radio" name="popup-user-button" checked="" class="popup-user-input" id="popup-user-input1">
+                            <label for="popup-user-input1" class="popup-user-button">Вход</label>
+                            <form class="log-in" method="get">
+                                <input type="email" name="email-log-in" autocomplete="email" placeholder="введите ваш e-mail" required="">
+                                <input type="password" name="passwor-log-in" placeholder="пароль" required="">
+                                <a href="">Забыли ваш пароли или логин?</a>
+                                <input type="submit" value="вход">
+                            </form>
+                
+                            <input type="radio" name="popup-user-button" id="popup-user-input2" class="popup-user-input">
+                            <label for="popup-user-input2" class="popup-user-button">Регистрация</label>
+                            <form class="sing-up" method="get">
+                                <input type="email" name="email-sing-up" autocomplete="email" placeholder="введите ваш e-mail" required="">
+                                <input type="password" name="passwor-sing-up" placeholder="пароль" required="">
+                                <input type="password" name="password-sing-up" placeholder="Повторите пароль" required="">
+                                <input type="submit" value="создать аккаунт">
+                                <span>или</span>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                                    <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                                    <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                                    <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                                    <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+                                </div>
+                
+                            </form>
+                        </div>
+                    </div>
+                
+                    <a href="#" class="user"><img src="img/login.svg" alt="login"></a>
+                    
+                </div>
+            </div>
+            <div class="center">
+               
+                <div>
+                </div>
+                <div>
+                </div>
+                <div class="center_left">
+                    <div><img src="img/example.jpg" alt="example"></div>
+                    <div>
+                        <ul>
+                            <li>Носки Off-White</li>
+                            <li>1+1=3</li>
+                            <li>Купи 2 пары носков Off-White<br>
+                                и получи еще одну в подарок</li>
+                        </ul>
+                    </div>
+                    <div><img src="img/example_1.jpg" alt="example"></div>
+                    <div><img src="img/example_2.jpg" alt="example"></div>
+                </div>
+            </div>
+
+
+            <div class="sale">
+                
+                <div>
+                    <div>
+                        <img src="img/percent.jpg" alt="percent">
+                        <img src="img/percent_1.jpg" alt="percent">
+                        <img src="img/percent_2.png" alt="percent">
+                    </div>
+                </div>
+                <div>
+                    <h3>
+                        конец сезонной распродажи
+                    </h3>
+                    <h2>
+                        скидки до <br>
+                        <span>-50&#37;</span>
+                    </h2>
+                    <button type="button" id="primary" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" class="animate__animated animate__heartBeat animate__infinite	infinite">
+                        купить со скидкой</button>
+
+
+                </div>
+            </div>
+            <div class="choice">
+               <a href="page2.html"> <button>женские кроссовки</button></a> 
+                <a href="page2.html"><button>мужские кроссовки</button> </a>
+            </div>
+
+            <div class="new_collection">
+
+
+                
+<h1>
+    Новая Коллекция <br>
+Nike Chinese New Year 2020
+</h1>
+
+
+
+
+
+    <button class="animate__animated animate__headShake animate__infinite	infinite"  type="button" id="primary" class="btn btn-primary"  data-toggle="modal" data-target="#exampleModal" >
+
+
+
+
+
+    ОФОРМИТЬ ПРЕДЗАКАЗ
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content" id="modeljs">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Оформить предзаказ</h5>
+          <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" >
+         <input type="text" placeholder="name"><br>
+         <input type="text" placeholder="password"><br>
+         <input type="text" placeholder="message">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" id="no">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="yes">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+            </div>
+
+
+
+            <div class="footer">
+                <h1>
+                    SNEAKER<br>
+SPACE.
+                </h1>
+                <div>
+                    <ul>
+                        <li><a href="page5.html">ПОЛЕЗНО</a></li>
+                        <li><a href="page5.html">Возврат товара</a></li>
+                        <li><a href="page5.html">Доставка</a></li>
+                        <li><a href="page5.html">Оплата</a></li>
+                        <li><a href="page5.html">FAQ по уходу за обувью</a></li>
+                        <li><a href="page5.html">Подарочные карты</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="page5.html">О НАС</a></li>
+                        <li><a href="page5.html">Компания</a></li>
+                        <li><a href="page5.html">Партнеры</a></li>
+                        <li><a href="page5.html">Рассылка новостей</a></li>
+                        <li><a href="page5.html">Вакансии</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="page5.html">СВЯЗАТЬСЯ С НАМИ</a></li>
+                        <li><a href="tel:+375291234567">+375 29 123 45 67</a></li>
+                        <li><a href="tel:+375251234567">+375 25 123 45 67</a></li>
+                        <li><a href="mailto:sneakerspace@gmail.com">sneakerspace@gmail.com</a></li>
+                        <li><a href="page5.html"></a></li>
+                        <li><a href="page5.html"></a></li>
+                    </ul>
+                    <div>
+                        <h4>
+                            Подпишись на рассылку и <br>
+    получи скидку 10% на первый заказ
+                        </h4>
+
+<button class="animate__animated animate__heartBeat animate__infinite	infinite">>
+
+
+                        подпиСАТЬСЯ
+                        </button>
+                        
+
+
+
+                        
+                       
+
+
+                        
+                        <img src="img/social.svg" alt="social">
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+    <script src="style/three.min.js"></script>
+    <script src="style/vanta.cells.min.js"></script>
+    <script src="style/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="style/script1.js"></script>
+</body>
+
+</html>

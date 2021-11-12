@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style_2.css">
+    <link rel="stylesheet" href="style/webfonts/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet">
+    <title>SNEAKER/Catalog</title>
+</head>
+
+
+    <div class="container">
+        <div class="menu">
+            <div class="menu_top">
+                <h1>
+                    SNEAKER<br>
+                    SPACE.
+                </h1>
+                <ul>
+                    <li><a id="navigation__link" href="page2.html">Все товары</a></li>
+                    <li><a id="navigation__link" href="page2.html">Женские</a></li>
+                    <li><a id="navigation__link" href="page3.html">Мужские</a></li>
+                    <li><a id="navigation__link" href="page5.html">Скидки</a></li>
+                    <li><a id="navigation__link" href="page5.html">Бренды</a></li>
+                    <li><a id="navigation__link" href="page5.html" >Контакты</a></li>
+                </ul>
+                <div>
+                    <a href="page4.html"><img src="img/search.svg" alt="search"></a>
+                    <a href="page4.html" id="bac"><img src="img/pouch.svg" alt="pouch">
+                        <p>0</p>
+                    </a>
+                    <a href="page4.html"><img src="img/like.svg" alt="like"></a>
+                    <div class="popup-user">
+                        <div>
+                            <input type="radio" name="popup-user-button" checked="" class="popup-user-input" id="popup-user-input1">
+                            <label for="popup-user-input1" class="popup-user-button">Вход</label>
+                            <form class="log-in" method="get">
+                                <input type="email" name="email-log-in" autocomplete="email" placeholder="введите ваш e-mail" required="">
+                                <input type="password" name="passwor-log-in" placeholder="пароль" required="">
+                                <a href="">Забыли ваш пароли или логин?</a>
+                                <input type="submit" value="вход">
+                            </form>
+                
+                            <input type="radio" name="popup-user-button" id="popup-user-input2" class="popup-user-input">
+                            <label for="popup-user-input2" class="popup-user-button">Регистрация</label>
+                            <form class="sing-up" method="get">
+                                <input type="email" name="email-sing-up" autocomplete="email" placeholder="введите ваш e-mail" required="">
+                                <input type="password" name="passwor-sing-up" placeholder="пароль" required="">
+                                <input type="password" name="password-sing-up" placeholder="Повторите пароль" required="">
+                                <input type="submit" value="создать аккаунт">
+                                <span>или</span>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/" class="facebook" target="_blank"><span class="icon-facebook-f-brands"></span></a>
+                                    <a href="https://twitter.com/" class="twitter" target="_blank"><span class="icon-twitter-brands"></span></a>
+                                    <a href="https://www.google.ru" class="google" target="_blank"><span class="icon-google-plus-g-brands"></span></a>
+                                    <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><span class="icon-linkedin-in-brands"></span></a>
+                                    <a href="https://www.instagram.com/" class="instagram" target="_blank"><span class="icon-instagram-brands"></span></a>
+                                </div>
+                
+                            </form>
+                        </div>
+                    </div>
+                
+                    <a href="#" class="user"><img src="img/login.svg" alt="login"></a>
+                </div>
+            </div>
+            <div class="choise_line">
+                <ul>
+                    <li><a href="final.html" >Главная</a></li>
+                    <li><a href="page2.html">Женщины</a></li>
+                    <li><a href="page3.html">Обувь</a></li>
+                    <li><a href="page3.html">Кроссовки</a></li>
+                </ul>
+            </div>
+
+
+            <div class="header_top">
+
+                <h1>
+                    Женские кроссовки
+                </h1>
+                <h4>
+                    306 товаров
+                </h4>
+            </div>
+
+            <div class="catalog_menu">
+                <div class="catalog">
+                    <h3>Фильтр <span><i class="fas fa-bars" id="openn"></i><i class="far fa-window-close" id="closee"></i></span></h3>
+                    <div id="wrap-filter">
+
+
+                    <h1  >
+                        обувь
+                        <span><i class="fas fa-plus" id="open1"></i><i class="fas fa-minus"id="close1"></i></span>
+                    </h1>
+
+
+                    <div class="left_top" id="left-top">
+                        <ul>
+                            <li><a href="#">Кроссовки</a></li>
+                            <li><a href="#">Кеды</a></li>
+                            <li><a href="#">Зимние кроссовки</a></li>
+                            <li><a href="#">Ботинки </a></li>
+                            <li><a href="#">Босоножки</a></li>
+                            <li><a href="#">Шлепанцы и сланцы</a></li>
+                        </ul>
+                    </div>
+
+                    <h1>
+                        аКСЕССУАРЫ
+                        <span><i class="fas fa-plus" id="open2"></i><i class="fas fa-minus"id="close2"></i></span>
+                        
+</h1>
+                        <div class="top1" id="top1">
+                            <ul>
+                                <li><a href="#" >Очки</a></li>
+                                <li><a href="#">Ремни</a></li>
+                                <li><a href="#">Кольца</a></li>
+                                <li><a href="#">Шарфы </a></li>
+                                <li><a href="#">Галстуки</a></li>
+                                <li><a href="#">Перчатки</a></li>
+                            </ul>
+                        </div>
+                    
+                    <h1>
+                        кОЛЛЕКЦИИ
+                        <span><i class="fas fa-plus" id="open3"></i><i class="fas fa-minus"id="close3"></i></span>
+                    </h1>
+                        <div class="top2" id="top2">
+                            <ul>
+                                <li><a href="#">Осень</a></li>
+                                <li><a href="#">Зима</a></li>
+                                <li><a href="#">Лето</a></li>
+                                <li><a href="#">Весни </a></li>
+                                <li><a href="#">Демисезон</a></li>
+                                
+                            </ul>
+                        </div>
+                    
+                    <h1>фильтры
+                        <span><i class="fas fa-plus" id="open4"></i><i class="fas fa-minus"id="close4"></i></span>
+                    </h1>
+                        <div class="top3" id="top3">
+                            <ul>
+                                <li><a href="#">Мужское</a></li>
+                                <li><a href="#">Женское</a></li>
+                                <li><a href="#">Детское</a></li>
+                                <li><a href="#">Унисекс </a></li>
+                                
+                            </ul>
+                        </div>
+                    
+                    <h1 >
+                        бренд
+                        <span><i class="fas fa-plus" id="open5"></i><i class="fas fa-minus"id="close5"></i></span>
+
+                    </h1>
+                    <div id="check_choise">
+                        <label>
+                            <input class="custom" type="checkbox">
+                            <span class="fake"></span>
+                            <span>Nike</span> </label>
+                        <label>
+                            <input class="custom" type="checkbox">
+                            <span class="fake"></span>
+                            <span>Adidas</span> </label>
+                        <label>
+                            <input class="custom" type="checkbox">
+                            <span class="fake"></span>
+                            <span>Puma</span> </label>
+                        <label>
+                            <input class="custom" type="checkbox">
+                            <span class="fake"></span>
+                            <span>Reebok</span> </label>
+                        <label>
+                            <input class="custom" type="checkbox">
+                            <span class="fake"></span>
+                            <span>Convers</span> </label>
+                        <label>
+                            <input class="custom" type="checkbox">
+                            <span class="fake"></span>
+                            <span>Dr. Martens</span> </label>
+                        <label>
+                            <input class="custom" type="checkbox">
+                            <span class="fake"></span>
+                            <span>New Balance
+                            </span> </label>
+                        <label>
+                            <input class="custom" type="checkbox">
+                            <span class="fake"></span>
+                            <span>Fila</span> </label>
+
+                    </div>
+                    <h1>цена
+                        <span><i class="fas fa-plus" id="open6"></i><i class="fas fa-minus"id="close6"></i></span>
+
+                    </h1>
+                    <h4>
+                        Сбросить
+                    </h4>
+                    <div class="slidecontainer" id="slidecontainer">
+                        <input type="range" class="slider">
+                        <div><span>Min</span>
+                            <span>Max</span>
+                        </div>
+
+                        <div>
+
+                            <input type="text" placeholder="от">
+                            <input type="text" placeholder="до">
+
+                        </div>
+                    </div>
+                    <h1>
+                        размер
+                    </h1>
+                    <div class="table_1">
+                        <div>36</div>
+                        <div>36,5</div>
+                        <div>37</div>
+                        <div>37,5</div>
+                        <div>38</div>
+                        <div>38,5</div>
+                        <div>39</div>
+                        <div>39,5</div>
+                        <div>40</div>
+                        <div>40,5</div>
+                        <div>41</div>
+                        <div>41,5</div>
+                        <div>42</div>
+                        <div>42,5</div>
+                        <div>43</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+                <div class="top_catalog">
+                    <h1>
+                        сортировать по
+                    </h1>
+                    <div class="grup">
+                        <div>
+                            <ul>
+                                <li><a href="$">
+                                        <p> <span>Цена:по &nbsp;</span> умолчанию</p>
+                                    </a></li>
+                                <li><span> &#215;</span></li>
+                            </ul>
+                        </div>
+                        <div id="nth3">
+                            <ul>
+                                <li><a href="$">
+                                        <p> <span>Цена: по &nbsp;</span>возрастанию</p>
+                                    </a></li>
+                                <li><span> &#215;</span></li>
+                            </ul>
+                        </div>
+                        <div id="nth4">
+                            <ul>
+                                <li><a href="$">
+                                        <p> <span>Цена: по &nbsp;</span>убыванию</p>
+                                    </a></li>
+                                <li><span> &#215;</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="$">
+                                        <p> <span></span>Максимальной скидке</p>
+                                    </a></li>
+                                <li><span> &#215;</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="$">
+                                        <p> <span></span>Новинкам</p>
+                                    </a></li>
+                                <li><span> &#215;</span></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                    <!-- catalog_center -->
+                    <div class="catalog_center">
+                        <div class="shoes_catalog">
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/menu_shoes.png" alt="menu_shoes">
+                                    <div class="new_promo">
+                                        новинка
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html"><h1><span> Nike</span> &#47; Кроссовки WMNS NIKE SUPERREP GROOVE</h1><br>
+                                    <h3>274 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes2.jpg" alt="shoes2">
+                                    <div class="new_promo1">
+                                        <!-- новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html"><h1><span> Nike</span> &#47; Кроссовки WMNS NIKE AIR MAX 2X</h1><br>
+                                    <h3>294 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes3.jpg" alt="shoes3">
+                                    <div class="new_promo2">
+                                        ХИТ
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html"> <h1><span> Nike</span> &#47; Кроссовки <br>
+                                        W NIKE AIR MAX ZM950</h1><br>
+                                    <h3>458 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes4.jpg" alt="shoes4">
+                                    <div class="new_promo2">
+                                        -31&#37;
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">    <h1><span> Nike</span> &#47; Кроссовки <br>
+                                        W AIR MAX 270</h1><br>
+                                    <h3>390 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes5.jpg" alt="shoes5">
+                                    <div class="new_promo">
+                                        новинка
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">   <h1><span> Nike</span> &#47; Кроссовки <br>
+                                        W NIKE REACT ART3MIS</h1><br>
+                                    <h3>274 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes6.jpg" alt="shoes6">
+                                    <div class="new_promo2">
+                                        -31&#37;
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">     <h1><span> Nike</span> &#47; Кроссовки <br>
+                                        W AF1 PIXEL</h1><br>
+                                    <h3>228 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes7.jpg" alt="shoes7">
+                                    <div class="new_promo2">
+                                        ХИТ
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">    <h1><span> Nike</span> &#47; Кроссовки WMNS NIKE SUPERREP GROOVE</h1><br>
+                                    <h3>246 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes8.jpg" alt="shoes8">
+                                    <div class="new_promo1">
+                                       <!--  новинка
+ -->
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">   <h1><span> Nike</span> &#47; Кроссовки WMNS NIKE RYZ 365</h1><br>
+                                    <h3>274 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes9.jpg" alt="shoes9">
+                                    <div class="new_promo1">
+                                       <!--  новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">    <h1><span> Nike</span> &#47; Кроссовки ZOOM 2K WOMEN'S SHOE</h1><br>
+                                    <h3>249 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes10.jpg" alt="shoes10">
+                                    <div class="new_promo1">
+                                        <!-- новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">    <h1><span> Nike</span> &#47; Кроссовки <br>
+                                        W AF1 SHADOW</h1><br>
+                                    <h3>299 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes11.jpg" alt="shoes11">
+                                    <div class="new_promo1">
+                                        <!-- новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html"> <h1><span> Nike</span> &#47; Кроссовки
+                                        W NIKE AIR MAX ZM950</h1><br>
+                                    <h3>458 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes12.jpg" alt="shoes12">
+                                    <div class="new_promo1">
+                                        <!-- новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">       <h1><span> Nike</span> &#47;  Кроссовки
+                                        M2K TEKNO WOMEN'S SHOE</h1><br>
+                                    <h3>284 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes13.jpg" alt="shoes13">
+                                    <div class="new_promo1">
+                                        <!-- новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">    <h1><span> Nike</span> &#47; Кроссовки ZOOM 2K WOMEN'S SHOE</h1><br>
+                                    <h3>268 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes14.jpg" alt="shoes14">
+                                    <div class="new_promo1">
+                                        <!-- новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">   <h1><span> Nike</span> &#47; Кроссовки
+                                        AIR MONARCH IV</h1><br>
+                                    <h3>164 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes15.jpg" alt="shoes15">
+                                    <div class="new_promo1">
+                                        <!-- новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">   <h1><span> Nike</span> &#47; Кроссовки
+                                        W AIR MAX EXOSENSE</h1><br>
+                                    <h3>283 р.</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="shoes_exaple">
+                                <div class="shoes1">
+                                    <img src="img/shoes16.jpg" alt="shoes16">
+                                    <div class="new_promo1">
+                                        <!-- новинка -->
+
+                                    </div>
+                                    <div>
+
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="name1">
+                                    <a href="page3.html">     <h1><span> Nike</span> &#47; Кроссовки
+                                        W NIKE REACT ELEMENT 55</h1><br>
+                                    <h3>246 р.</h3></a>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="list">
+                            <button>
+                                Назад
+                            </button>
+                            <ul>
+                                <li><a href="page2.html"></a>1</li>
+                                <li><a href="page2.html"></a>2</li>
+                                <li><a href="page2.html"></a>3</li>
+                                <li><a href="page2.html"></a>4</li>
+                                <li><a href="page2.html"></a>5</li>
+                                <li><a href="page2.html"></a>6</li>
+                            </ul>
+                            <button>
+                                Вперед
+                            </button>
+                        </div>
+                    </div>
+                    <!--  -->
+                    
+                </div>
+
+
+            </div>
+  
+
+
+
+
+
+
+
+            <div class="footer">
+                <h1>
+                    SNEAKER<br>
+                    SPACE.
+                </h1>
+                <div>
+                    <ul>
+                        <li><a href="#">ПОЛЕЗНО</a></li>
+                        <li><a href="#">Возврат товара</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">FAQ по уходу за обувью</a></li>
+                        <li><a href="#">Подарочные карты</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">О НАС</a></li>
+                        <li><a href="#">Компания</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                        <li><a href="#">Рассылка новостей</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">СВЯЗАТЬСЯ С НАМИ</a></li>
+                        <li><a href="tel:+375291234567">+375 29 123 45 67</a></li>
+                        <li><a href="tel:+375251234567">+375 25 123 45 67</a></li>
+                        <li><a href="mailto:sneakerspace@gmail.com">sneakerspace@gmail.com</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                    <div>
+                        <h4>
+                            Подпишись на рассылку и <br>
+                            получи скидку 10% на первый заказ
+                        </h4>
+                        <button>
+                            подпиСАТЬСЯ
+                        </button>
+                        <img src="img/social.svg" alt="social">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    
+    
+
+<script src="style/script.js"></script>
+<script src="style/script1.js"></script>
+</body>
+
+</html>

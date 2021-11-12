@@ -1,0 +1,10 @@
+@media all and (max-width: 900px){
+    body{
+        width: 1800px;
+    }
+    .container{
+        width: 900px;
+        background-color: red;
+        margin: 0 auto;
+    }
+}

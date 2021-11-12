@@ -1,0 +1,622 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.rating {
+  unicode-bidi: bidi-override;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em; }
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2B50";
+  position: absolute; }
+
+body {
+  background: #14110e;
+  font-family: "Righteous", cursive; }
+
+.border {
+  padding-left: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1c1814;
+  height: 125px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+  .border a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    margin-right: 48px; }
+    .border a:hover {
+      color: #c99e71;
+      font-weight: bold; }
+  .border li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 18px; }
+  .border img {
+    padding-left: 133px; }
+  .border div:last-child > ul {
+    padding-left: 255px; }
+  .border i {
+    color: white;
+    padding-right: 55px; }
+
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+
+.logo_menu {
+  background-image: url("../img/logo_menu.png");
+  height: 836px;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .logo_menu h2 {
+    color: white;
+    font-size: 72px;
+    line-height: 130%;
+    padding-top: 147px;
+    padding-bottom: 32px; }
+  .logo_menu p {
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-bottom: 64px; }
+  .logo_menu button {
+    width: 202px;
+    height: 70px;
+    background-color: #C99E71;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    --animate-repeat: 2; }
+
+.cup .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .cup .container > div {
+    padding-top: 140px;
+    padding-right: 36px; }
+  .cup .container :last-child {
+    padding-right: 0px; }
+  .cup .container > div > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 54px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .cup .container > div > div p {
+    color: white;
+    font-size: 24px;
+    padding-right: 12px; }
+    .cup .container > div > div p:first-child {
+      color: #C99E71; }
+
+.center_image .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .center_image .container > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 140px; }
+    .center_image .container > div img {
+      padding-bottom: 32px;
+      padding-right: 32px; }
+  .center_image .container div:last-child {
+    background-color: #1C1814;
+    width: 510px;
+    height: 635px;
+    margin-top: 140px;
+    padding-top: 120px;
+    padding-left: 60px; }
+    .center_image .container div:last-child p:first-child {
+      color: #C99E71;
+      font-size: 18px;
+      font-family: "Urbanist", sans-serif;
+      font-weight: 600;
+      padding-bottom: 12px; }
+    .center_image .container div:last-child h4 {
+      color: white;
+      font-size: 48px;
+      padding-bottom: 36px; }
+    .center_image .container div:last-child p:last-child {
+      color: rgba(255, 255, 255, 0.8);
+      font-family: "Urbanist", sans-serif;
+      font-weight: 500;
+      text-transform: capitalize;
+      line-height: 180%;
+      width: 398px; }
+
+.popular_product .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .popular_product .container p:first-child {
+    color: #C99E71;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 12px; }
+  .popular_product .container p:last-child {
+    color: white;
+    font-size: 48px; }
+
+.product .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .product .container div {
+    background-color: #121315;
+    width: 366px;
+    height: 579px;
+    margin-right: 36px;
+    position: relative; }
+    .product .container div p:nth-child(5) {
+      text-transform: uppercase;
+      color: white;
+      font-size: 18px;
+      font-family: "Urbanist", sans-serif;
+      font-weight: 600;
+      padding-top: 20px; }
+      .product .container div p:nth-child(5) span {
+        color: #C99E71; }
+    .product .container div:last-child {
+      margin-right: 0px; }
+    .product .container div .rating {
+      height: 0px; }
+    .product .container div p {
+      padding-left: 75px;
+      font-family: "Urbanist", sans-serif;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: #C99E71; }
+    .product .container div img {
+      padding: 48px; }
+    .product .container div h5 {
+      font-size: 24px;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 20px; }
+    .product .container div button {
+      position: absolute;
+      opacity: 0;
+      width: 169px;
+      height: 48px;
+      background-color: #C99E71;
+      color: white;
+      font-size: 18px;
+      font-family: "Urbanist", sans-serif;
+      font-weight: 600;
+      left: 28%;
+      cursor: pointer; }
+    .product .container div:hover {
+      -webkit-transition: 1s;
+      transition: 1s;
+      -webkit-transform: scale(1.1, 1.2);
+              transform: scale(1.1, 1.2); }
+      .product .container div:hover p {
+        display: none; }
+    .product .container div:hover button {
+      display: block;
+      opacity: 1;
+      -webkit-transition: opacity 1s;
+      transition: opacity 1s;
+      top: 510px; }
+
+.center_button_1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .center_button_1 .container button {
+    margin-top: 50px;
+    background-color: #C99E71;
+    width: 252px;
+    height: 62px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.coffe_machine .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #1C1814;
+  height: 530px;
+  margin-top: 140px; }
+  .coffe_machine .container div:last-child {
+    width: 600px;
+    padding-left: 100px; }
+  .coffe_machine .container h4 {
+    color: white;
+    font-size: 48px;
+    padding-bottom: 36px; }
+  .coffe_machine .container p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    padding-bottom: 36px; }
+  .coffe_machine .container button {
+    width: 215px;
+    height: 62px;
+    background-color: #C99E71;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-size: 18px; }
+
+.text .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 140px; }
+  .text .container h5 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    color: #C99E71; }
+  .text .container h3 {
+    font-size: 48px;
+    color: white;
+    padding-top: 12px; }
+
+.menu_price .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+  .menu_price .container div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 56px;
+    width: 565px;
+    height: 120px;
+    border: 1px solid #32323d;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .menu_price .container div img {
+      padding-left: 20px;
+      padding-right: 20px; }
+    .menu_price .container div h1 {
+      font-size: 24px;
+      color: white;
+      padding-right: 117px; }
+    .menu_price .container div p {
+      font-family: "Urbanist", sans-serif;
+      font-size: 18px;
+      color: #C99E71; }
+
+.Testimonial .container .test_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 140px;
+  padding-bottom: 56px; }
+  .Testimonial .container .test_logo h5 {
+    font-size: 18px;
+    font-family: "Urbanist", sans-serif;
+    color: #C99E71;
+    padding-bottom: 12px; }
+  .Testimonial .container .test_logo h3 {
+    color: white;
+    font-size: 48px;
+    line-height: 130%; }
+.Testimonial .container .review {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .Testimonial .container .review div {
+    position: relative;
+    height: 305px;
+    width: 565px;
+    background-color: #1C1814;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .Testimonial .container .review div img {
+      padding-left: 40px;
+      padding-top: 40px;
+      padding-right: 24px; }
+    .Testimonial .container .review div > div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      .Testimonial .container .review div > div h5 {
+        font-family: "Urbanist", sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 18px;
+        padding-left: 40px;
+        padding-top: 28px; }
+      .Testimonial .container .review div > div p {
+        font-family: "Urbanist", sans-serif;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        padding-left: 40px;
+        padding-bottom: 30px;
+        padding-top: 4px; }
+    .Testimonial .container .review div p {
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 180%;
+      padding-top: 40px; }
+    .Testimonial .container .review div .star {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      background-color: initial;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      padding-right: 40px; }
+      .Testimonial .container .review div .star img {
+        padding: 4px;
+        padding-bottom: 40px; }
+.Testimonial .container > div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 36px; }
+  .Testimonial .container > div:last-child p {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    color: #C99E71;
+    font-size: 20px; }
+  .Testimonial .container > div:last-child > div {
+    margin-top: -6px; }
+    .Testimonial .container > div:last-child > div button {
+      background-color: #14110e;
+      color: rgba(255, 255, 255, 0.8);
+      border: none;
+      cursor: pointer; }
+      .Testimonial .container > div:last-child > div button:last-child i {
+        color: #C99E71; }
+
+.Reservation {
+  margin-top: 170px; }
+  .Reservation .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .Reservation .container div:last-child {
+      width: 585px;
+      height: 652px;
+      background-color: #1C1814; }
+      .Reservation .container div:last-child h4 {
+        font-family: "Urbanist", sans-serif;
+        font-size: 18px;
+        color: #C99E71;
+        padding-top: 72px;
+        text-align: center;
+        padding-bottom: 12px; }
+      .Reservation .container div:last-child h5 {
+        color: white;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center; }
+      .Reservation .container div:last-child form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-top: 56px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .Reservation .container div:last-child form input {
+          margin-bottom: 24px;
+          width: 489px;
+          height: 64px;
+          background: #14110e; }
+        .Reservation .container div:last-child form input:last-child {
+          margin-bottom: 54px; }
+      .Reservation .container div:last-child button {
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        color: white;
+        background-color: #C99E71;
+        width: 202px;
+        height: 62px;
+        margin-left: 192px; }
+
+.bottom_menu .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .bottom_menu .container > div > p:last-child {
+    line-height: 150%;
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    padding-left: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .bottom_menu .container a {
+    text-decoration: none;
+    color: #C99E71;
+    font-size: 16px;
+    font-family: "Urbanist", sans-serif;
+    padding-top: 24px; }
+  .bottom_menu .container div {
+    width: 366px;
+    height: 528px;
+    background-color: #1C1814; }
+  .bottom_menu .container > div > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    height: 0px; }
+    .bottom_menu .container > div > div p {
+      color: white;
+      font-size: 18px;
+      font-family: "Urbanist", sans-serif; }
+      .bottom_menu .container > div > div p span {
+        color: #C99E71;
+        font-size: 18px;
+        font-family: "Urbanist", sans-serif; }
+
+.bottom .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 146px;
+  margin-bottom: 105px; }
+  .bottom .container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none; }
+    .bottom .container ul li {
+      padding-right: 40px;
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      line-height: 100%;
+      color: white; }
+      .bottom .container ul li:first-child {
+        padding-left: 36px; }
+  .bottom .container form {
+    position: relative; }
+    .bottom .container form input {
+      width: 328px;
+      height: 72px;
+      background: #1C1814;
+      border-radius: 36px;
+      border: none;
+      margin-left: 36px;
+      padding-left: 28px; }
+  .bottom .container i {
+    position: absolute;
+    left: 307px;
+    top: 12px;
+    cursor: pointer;
+    color: #C99E71; }
+
+.end {
+  background-color: #1C1814;
+  height: 90px; }
+  .end p {
+    font-family: "Urbanist", sans-serif;
+    font-size: 14px;
+    line-height: 180%;
+    color: white;
+    text-align: center;
+    padding-top: 32px; }
+
+/*# sourceMappingURL=style.css.map */
