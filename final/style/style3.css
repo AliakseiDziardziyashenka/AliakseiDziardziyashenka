@@ -793,7 +793,8 @@ ul.description {
   align-items: flex-start;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: -820px; }
 
 .popup-user > div {
   width: 300px;
@@ -832,11 +833,19 @@ ul.description {
 .popup-user .popup-user-input:checked + .popup-user-button + form input:not([type="submit"]):focus {
   border-color: #00c2ec; }
 
-.popup-user .popup-user-input:checked + .popup-user-button + form input:not([type="submit"])::-webkit-input-placeholder {
+.popup-user
+.popup-user-input:checked
++ .popup-user-button
++ form
+input:not([type="submit"])::-webkit-input-placeholder {
   font-size: 14px;
   color: #5c6874; }
 
 .popup-user .popup-user-input:checked + .popup-user-button + form input:not([type="submit"]):-ms-input-placeholder {
+  font-size: 14px;
+  color: #5c6874; }
+
+.popup-user .popup-user-input:checked + .popup-user-button + form input:not([type="submit"])::-webkit-input-placeholder {
   font-size: 14px;
   color: #5c6874; }
 

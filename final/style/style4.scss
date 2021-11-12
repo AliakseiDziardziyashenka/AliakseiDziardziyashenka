@@ -33,13 +33,12 @@ body {
         width: $xs;
         background: linear-gradient(#181818 71.2%, white 70%);
     }
-
 }
 //menu
 a {
     text-decoration: none;
     color: $black;
-    &:hover{
+    &:hover {
         background-color: rgba(161, 161, 161, 0.815);
         transition: 0.3s;
         color: white;
@@ -47,12 +46,12 @@ a {
         border-radius: 5px;
         text-align: center;
         padding: 0px !important;
-        transition:  1s ease-in-out;
+        transition: 1s ease-in-out;
     }
 }
-button{
-    &:hover{
-        box-shadow: -8px -8px 12px rgba(0, 0, 0, 0.20), 8px 8px 12px rgba(0, 0, 0, 0.5);
+button {
+    &:hover {
+        box-shadow: -8px -8px 12px rgba(0, 0, 0, 0.2), 8px 8px 12px rgba(0, 0, 0, 0.5);
         transition: 0.3s;
     }
 }
@@ -65,7 +64,6 @@ button{
 }
 li {
     list-style-type: none;
-   
 }
 .menu {
     width: 1336px;
@@ -131,7 +129,8 @@ li {
                     flex-wrap: wrap;
                     justify-content: space-between;
                     margin-bottom: 10px;
-                }}
+                }
+            }
             & li {
                 padding-right: 40px;
                 font-family: $fs;
@@ -147,7 +146,6 @@ li {
             }
         }
         & > div {
-            
             margin-left: 112px;
             display: flex;
             align-items: center;
@@ -176,7 +174,7 @@ li {
             & a {
                 margin-right: 20px;
             }
-            & #bac{
+            & #bac {
                 position: relative;
             }
             & p {
@@ -185,7 +183,6 @@ li {
                 top: 20px;
                 color: white;
                 font-size: 8px;
-               
             }
         }
     }
@@ -201,16 +198,14 @@ li {
     }
     @include media(740px) {
         margin-top: 120px;
-        
     }
     & ul {
         display: flex;
-        
+
         & li + li:before {
             padding: 13px;
             color: black;
             content: url(../img/Vector.svg);
-           
         }
         & li {
             font-size: $fs14;
@@ -218,7 +213,6 @@ li {
             letter-spacing: 0.02em;
             @include media(740px) {
                 padding-top: 10px;
-                
             }
             &:last-child {
                 & a {
@@ -242,18 +236,15 @@ li {
     @include media(1380px) {
         flex-wrap: wrap;
         justify-content: center;
-        
     }
     @include media(740px) {
         margin-left: 7px;
-        
     }
     & .top_content {
         display: flex;
         margin-bottom: 50px;
         @include media(740px) {
             flex-wrap: wrap;
-            
         }
         & .left_content {
             display: flex;
@@ -268,7 +259,6 @@ li {
                 @include media(740px) {
                     width: 290px;
                     height: 290px;
-                    
                 }
             }
             & #info {
@@ -292,7 +282,6 @@ li {
                             @include media(740px) {
                                 font-size: $fs18;
                                 text-align: center;
-                                
                             }
                         }
                         @include media(1380px) {
@@ -341,12 +330,11 @@ li {
     @include media(1380px) {
         margin-right: 18px;
     }
-    @include media(960px){
+    @include media(960px) {
         width: 230px;
     }
     @include media(740px) {
         width: 290px;
-        
     }
 
     & div {
@@ -422,15 +410,14 @@ li {
         text-align: center;
         color: #ffffff;
         cursor: pointer;
-        @include media(960px){
+        @include media(960px) {
             width: 230px;
         }
         @include media(740px) {
             width: 290px;
-            
         }
     }
-    
+
     & #add2 {
         display: flex;
         align-items: flex-end;
@@ -441,7 +428,7 @@ li {
             height: 40px;
             border: 1px solid #686868;
             padding: 18px;
-            @include media(960px){
+            @include media(960px) {
                 width: 120px;
             }
         }
@@ -456,7 +443,7 @@ li {
             font-size: $fs16;
             line-height: 19px;
             letter-spacing: 0.01em;
-            @include media(960px){
+            @include media(960px) {
                 font-size: $fs14;
             }
         }
@@ -465,12 +452,11 @@ li {
 //delivery
 .delivery {
     width: 748px;
-    @include media(960px){
+    @include media(960px) {
         width: 630px;
     }
     @include media(740px) {
-        margin-top: 190px ;
-        
+        margin-top: 190px;
     }
     & .delivery_region {
         display: flex;
@@ -486,7 +472,6 @@ li {
             margin-left: 52px;
             @include media(740px) {
                 margin-left: 5px;
-                
             }
         }
         & form,
@@ -507,7 +492,6 @@ li {
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     @include media(740px) {
         width: 290px;
-        
     }
     &:last-child {
         border-bottom: 0.5px solid #949494;
@@ -525,9 +509,8 @@ li {
         margin-right: 20px;
         border-radius: 50%;
         @include media(740px) {
-           width: 25px;
-           height: 22px;
-            
+            width: 25px;
+            height: 22px;
         }
         &::before {
             content: "";
@@ -546,7 +529,6 @@ li {
             @include media(740px) {
                 width: 8px;
                 height: 8px;
-                
             }
         }
     }
@@ -570,7 +552,6 @@ li {
                 font-weight: $fl;
                 @include media(740px) {
                     font-size: $fs18;
-                    
                 }
             }
             &:last-child {
@@ -581,7 +562,6 @@ li {
                 color: #505050;
                 @include media(740px) {
                     font-size: $fs16;
-                    
                 }
             }
         }
@@ -603,7 +583,6 @@ li {
                 &:last-child {
                     opacity: 0.5;
                     padding-bottom: 24px;
-
                 }
             }
         }
@@ -618,28 +597,26 @@ li {
         flex-direction: column;
         border-bottom: none;
     }
-    & h1{
+    & h1 {
         font-weight: $fm;
-font-size: $fs24;
-line-height: 29px;
-letter-spacing: 0.04em;
+        font-size: $fs24;
+        line-height: 29px;
+        letter-spacing: 0.04em;
 
-color: #000000;
-margin-top: 32px;
-margin-bottom: 45px;
-margin-left: 45px;
-@include media(740px) {
-    font-size: $fs18;
-    margin-left: 10px;
-    
-}
+        color: #000000;
+        margin-top: 32px;
+        margin-bottom: 45px;
+        margin-left: 45px;
+        @include media(740px) {
+            font-size: $fs18;
+            margin-left: 10px;
+        }
     }
     & form {
         margin-left: 45px;
         @include media(740px) {
             display: flex;
             flex-direction: column;
-            
         }
         & input {
             font-size: $fs18;
@@ -647,7 +624,6 @@ margin-left: 45px;
             letter-spacing: 0.02em;
 
             color: #aaaaaa;
-            
 
             &:nth-child(1) {
                 width: 528px;
@@ -656,16 +632,14 @@ margin-left: 45px;
                 margin-right: 32px;
                 padding-left: 18px;
                 font-size: $fs16;
-                @include media(960px){
+                @include media(960px) {
                     width: 350px;
                 }
                 @include media(740px) {
                     width: 200px;
-                    
                 }
-                
             }
-            
+
             &:nth-child(2) {
                 width: 137px;
                 height: 48px;
@@ -674,7 +648,6 @@ margin-left: 45px;
                 @include media(740px) {
                     width: 200px;
                     margin-top: 32px;
-                    
                 }
             }
             &:nth-child(3) {
@@ -686,7 +659,6 @@ margin-left: 45px;
                 padding-left: 24px;
                 @include media(740px) {
                     width: 200px;
-                    
                 }
             }
             &:nth-child(4) {
@@ -697,68 +669,62 @@ margin-left: 45px;
                 padding-left: 24px;
                 @include media(740px) {
                     width: 200px;
-                    
                 }
             }
             &:hover {
                 border: none;
-                box-shadow: -8px -8px 12px rgba(0, 0, 0, 0.20), 8px 8px 12px rgba(0, 0, 0, 0.5);
+                box-shadow: -8px -8px 12px rgba(0, 0, 0, 0.2), 8px 8px 12px rgba(0, 0, 0, 0.5);
                 transition: 0.6s;
             }
-            
         }
     }
 }
-#test{
+#test {
     display: flex;
     justify-content: space-between;
     border: none;
     @include media(740px) {
-        
         flex-direction: column;
-        
     }
-   
-    & input{
+
+    & input {
         width: 332px;
         height: 48px;
         @include media(740px) {
             width: 200px;
             flex-direction: column;
-            
         }
     }
-    
 }
-#test1{
+#test1 {
     display: flex;
     flex-direction: column;
     margin-top: 32px;
-    & input{
+    & input {
         width: 528px;
-height: 48px;
-margin-bottom: 32px;
-@include media(740px) {
-    width: 200px;
-    margin-bottom: unset;
-}
+        height: 48px;
+        margin-bottom: 32px;
+        @include media(740px) {
+            width: 200px;
+            margin-bottom: unset;
+        }
     }
-}#navigation__link {
+}
+#navigation__link {
     position: relative;
     color: $black;
     font-size: 1em;
     line-height: 14px;
     letter-spacing: 1.4px;
+}
 
-  }
-  
-  #navigation__link:hover,
-  #navigation__link :active {
+#navigation__link:hover,
+#navigation__link :active {
     color: rgb(255, 255, 255);
     border: none;
-  }
-  
-  #navigation__link::after {
+}
+
+#navigation__link::after {
     content: "";
     width: 0;
     height: 2px;
@@ -768,20 +734,18 @@ margin-bottom: 32px;
     bottom: -5px;
     transform: translateX(-50%);
     transition-duration: 0.3s;
-  }
-  
-  #navigation__link:hover::after,
-  #navigation__link:focus::after {
+}
+
+#navigation__link:hover::after,
+#navigation__link:focus::after {
     width: 100%;
-  }
-  #navigation__link {
+}
+#navigation__link {
     position: relative;
     color: $black;
     font-size: 1em;
     line-height: 14px;
     letter-spacing: 1.4px;
-    
-    
 }
 
 #navigation__link:hover,
@@ -789,7 +753,6 @@ margin-bottom: 32px;
     color: rgb(255, 255, 255);
     border: none;
     margin-right: 0;
-    
 }
 
 #navigation__link::after {
@@ -901,8 +864,8 @@ ul.description {
     height: 67px;
     padding: 10px;
 }
-#exampleModal{
-    @include media (740px){
+#exampleModal {
+    @include media(740px) {
         width: 300px;
         margin-left: 141px;
     }
@@ -924,7 +887,7 @@ ul.description {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    
+    margin-top: -820px;
 }
 
 .popup-user > div {
@@ -971,7 +934,11 @@ ul.description {
     border-color: #00c2ec;
 }
 
-.popup-user .popup-user-input:checked + .popup-user-button + form input:not([type="submit"])::-webkit-input-placeholder {
+.popup-user
+    .popup-user-input:checked
+    + .popup-user-button
+    + form
+    input:not([type="submit"])::-webkit-input-placeholder {
     font-size: 14px;
     color: #5c6874;
 }
@@ -1069,6 +1036,5 @@ ul.description {
 
 .popup-user form.sing-up .social {
     -ms-flex-pack: distribute;
-    justify-content: space-around
+    justify-content: space-around;
 }
-

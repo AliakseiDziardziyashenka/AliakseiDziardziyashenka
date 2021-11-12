@@ -145,7 +145,6 @@ li {
             }
         }
         & > div {
-            
             margin-left: 112px;
             display: flex;
             align-items: center;
@@ -174,7 +173,7 @@ li {
             & a {
                 margin-right: 20px;
             }
-            & #bac{
+            & #bac {
                 position: relative;
             }
             & p {
@@ -183,14 +182,13 @@ li {
                 top: 20px;
                 color: white;
                 font-size: 8px;
-               
+
                 @include media(1180px) {
                     top: 20px;
                 }
                 @include media(960px) {
                     top: 20px;
                 }
-                
             }
         }
     }
@@ -805,8 +803,8 @@ ul.description {
     height: 67px;
     padding: 10px;
 }
-#exampleModal{
-    @include media (740px){
+#exampleModal {
+    @include media(740px) {
         width: 300px;
         margin-left: 141px;
     }
@@ -828,7 +826,7 @@ ul.description {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    
+    margin-top: -820px;
 }
 
 .popup-user > div {
@@ -875,7 +873,11 @@ ul.description {
     border-color: #00c2ec;
 }
 
-.popup-user .popup-user-input:checked + .popup-user-button + form input:not([type="submit"])::-webkit-input-placeholder {
+.popup-user
+    .popup-user-input:checked
+    + .popup-user-button
+    + form
+    input:not([type="submit"])::-webkit-input-placeholder {
     font-size: 14px;
     color: #5c6874;
 }
@@ -973,6 +975,5 @@ ul.description {
 
 .popup-user form.sing-up .social {
     -ms-flex-pack: distribute;
-    justify-content: space-around
+    justify-content: space-around;
 }
-

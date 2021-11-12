@@ -130,7 +130,6 @@ li {
             }
         }
         & > div {
-            
             margin-left: 112px;
             display: flex;
             align-items: center;
@@ -164,7 +163,7 @@ li {
             & a {
                 margin-right: 20px;
             }
-            & #bac{
+            & #bac {
                 position: relative;
             }
             & p {
@@ -173,7 +172,6 @@ li {
                 top: 20px;
                 color: white;
                 font-size: 8px;
-                
             }
         }
     }
@@ -248,16 +246,16 @@ li {
     margin: 0 auto;
     margin-bottom: 50px;
     margin-top: 30px;
-    @include media (740px){
+    @include media(740px) {
         width: 100%;
     }
 }
 
-.carousel-control-next{
-    @include media (960px){
+.carousel-control-next {
+    @include media(960px) {
         right: 87px;
     }
-    @include media (740px){
+    @include media(740px) {
         right: 70px;
     }
 }
@@ -309,7 +307,7 @@ li {
                 letter-spacing: 0.02em;
 
                 color: $white;
-                padding-bottom: 16px;
+                margin-bottom: 16px;
             }
             &:nth-child(1) {
                 padding-bottom: 34px;
@@ -400,8 +398,6 @@ li {
     font-size: 1em;
     line-height: 14px;
     letter-spacing: 1.4px;
-    
-    
 }
 
 #navigation__link:hover,
@@ -409,7 +405,6 @@ li {
     color: rgb(255, 255, 255);
     border: none;
     margin-right: 0;
-    
 }
 
 #navigation__link::after {
@@ -521,8 +516,8 @@ ul.description {
     height: 67px;
     padding: 10px;
 }
-#exampleModal{
-    @include media (740px){
+#exampleModal {
+    @include media(740px) {
         width: 300px;
         margin-left: 141px;
     }
@@ -544,7 +539,7 @@ ul.description {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    
+    margin-top: -820px;
 }
 
 .popup-user > div {
@@ -591,7 +586,11 @@ ul.description {
     border-color: #00c2ec;
 }
 
-.popup-user .popup-user-input:checked + .popup-user-button + form input:not([type="submit"])::-webkit-input-placeholder {
+.popup-user
+    .popup-user-input:checked
+    + .popup-user-button
+    + form
+    input:not([type="submit"])::-webkit-input-placeholder {
     font-size: 14px;
     color: #5c6874;
 }
@@ -689,6 +688,5 @@ ul.description {
 
 .popup-user form.sing-up .social {
     -ms-flex-pack: distribute;
-    justify-content: space-around
+    justify-content: space-around;
 }
-

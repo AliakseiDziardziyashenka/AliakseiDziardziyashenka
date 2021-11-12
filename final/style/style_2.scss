@@ -44,7 +44,6 @@ a {
         border-radius: 5px;
         text-align: center;
         padding: 0px !important;
-        
     }
 }
 button {
@@ -138,15 +137,13 @@ li {
                 align-items: center;
                 letter-spacing: 0.04em;
                 font-weight: $fl;
-                
-                @include media(960px) {
 
-                margin-bottom: 7px;
+                @include media(960px) {
+                    margin-bottom: 7px;
                 }
             }
         }
         & > div {
-            
             margin-left: 112px;
             display: flex;
             align-items: center;
@@ -174,17 +171,16 @@ li {
             & a {
                 margin-right: 20px;
             }
-            & #bac{
+            & #bac {
                 position: relative;
             }
-            
+
             & p {
                 position: absolute;
                 left: 21px;
                 top: 20px;
                 color: white;
                 font-size: 8px;
-                
             }
         }
     }
@@ -206,7 +202,7 @@ li {
         margin-top: 60px;
     }
     @include media(740px) {
-        margin-top: 90px;
+        margin-top: 140px;
     }
     & ul {
         display: flex;
@@ -749,7 +745,7 @@ li {
                 position: absolute;
                 top: 3px;
                 cursor: pointer;
-                
+
                 & i {
                     &:first-child {
                         padding-left: 206px;
@@ -774,13 +770,12 @@ li {
                     background-image: none;
                     margin-left: -20px;
                     transition: 0.3s;
-                    
+
                     & i {
                         display: revert;
                         color: red;
                         font-size: 40px;
                         margin-left: -230px;
-                        
                     }
                 }
             }
@@ -1011,8 +1006,6 @@ li {
     font-size: 1em;
     line-height: 14px;
     letter-spacing: 1.4px;
-    
-    
 }
 
 #navigation__link:hover,
@@ -1020,7 +1013,6 @@ li {
     color: rgb(255, 255, 255);
     border: none;
     margin-right: 0;
-    
 }
 
 #navigation__link::after {
@@ -1132,8 +1124,8 @@ ul.description {
     height: 67px;
     padding: 10px;
 }
-#exampleModal{
-    @include media (740px){
+#exampleModal {
+    @include media(740px) {
         width: 300px;
         margin-left: 141px;
     }
@@ -1155,7 +1147,7 @@ ul.description {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    
+    margin-top: -820px;
 }
 
 .popup-user > div {
@@ -1202,7 +1194,11 @@ ul.description {
     border-color: #00c2ec;
 }
 
-.popup-user .popup-user-input:checked + .popup-user-button + form input:not([type="submit"])::-webkit-input-placeholder {
+.popup-user
+    .popup-user-input:checked
+    + .popup-user-button
+    + form
+    input:not([type="submit"])::-webkit-input-placeholder {
     font-size: 14px;
     color: #5c6874;
 }
@@ -1300,6 +1296,5 @@ ul.description {
 
 .popup-user form.sing-up .social {
     -ms-flex-pack: distribute;
-    justify-content: space-around
+    justify-content: space-around;
 }
-
