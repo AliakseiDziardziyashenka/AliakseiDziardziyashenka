@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   .out-1 {
+      width: 100px;
+      height: 100px;
+   }
+
+   .b-1 {
+      width: 100px;
+      height: 100px;
+   }
+</style>
+
+<body>
+
+
+
+   <div class="out-1"></div>
+   <input type="button" class="b-1">
+   <script>
+
+      let ar1 = [2, 3, 4, 5, 6, 7, 88, 88874, 33313];
+
+
+
+
+      let res2 = ar1.filter((item, index) => (index % 2 === 0))
+
+      console.log(res2);
+/* let age
+      do{
+age = prompt('aasd');
+}while (age=null || age == '' || age <= 100)
+ */
+      
+      function sss(a, b, c){
+        
+         return a + b * c ;
+        
+      }
+      let a = sss(12, 222, 1233)
+      console.log(a)
+
+let aa=10;
+let bb=20;
+
+         let main = document.querySelector('.b-1').addEventListener('click', function (){
+
+            let a1 = aa + bb;
+           console.log(a1)
+
+         })
+            
+
+/*          let n = 10;
+
+
+nextPrime:
+for (let i = 2; i <= n; i++) { // Для всех i...
+
+  
+    if (i % 3 == 0) continue nextPrime; // не подходит, берём следующее
+  
+
+  alert( i ); // простое число
+}
+ */
+
+   </script>
+</body>
+
+</html>

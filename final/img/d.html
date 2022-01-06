@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)file:///Users/johnsmith/Documents/Home/AliakseiDziardziyashenka/js/lesson%201/lesson.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+
+    <script>
+
+
+        /* let lastName=prompt("введите фамилию")
+              let name=prompt("введите имя")
+              let otc=prompt("введите отчество")
+              let age=+prompt("сколько вам лет")
+              let year=365
+              let day=age*365
+              let dayNext=age+5
+              let gender=confirm("ваш пол мужской?Если ДА ,то нажмите Ok.Если вы женщина ,то нажмите Отмена")
+         *///let pol1
+        /*    if(gender == true){
+           gender="мужской"
+           }
+           else {
+           gender = "женский"
+           }
+         */
+
+        let pensia
+        /*    if (gender == true && age >= 65){
+           pensia="да"
+           }
+           else {
+           pensia="нет"
+           }
+           if (gender != true && age >= 60){
+           pensia="да"
+           }
+           else {
+           pensia="нет"
+           }
+         */
+
+
+        let lastName
+        do {
+            lastName = prompt("введите фамилию");
+        } while (lastName === "" || lastName === null)
+
+
+        let name
+        do {
+            name = prompt("введите имя");
+        } while (name === "" || name === null)
+
+        let otc
+        do {
+            otc = prompt("введите отчество")
+        } while (otc === "" || otc === null)
+
+        let age
+        do {
+            age = +prompt("сколько вам лет")
+        } while (age === "" || age   === null)
+
+        let year = 365
+        let day = age * 365
+        let dayNext = age + 5
+        let gender = confirm("ваш пол мужской?Если ДА ,то нажмите Ok.Если вы женщина ,то нажмите Отмена")
+
+       /*  if(gender == true){
+           gender="мужской"
+           }
+           else {
+           gender = "женский"
+           }
+         */
+
+            (gender == true) ? gender = 'man' : gender = 'woman';
+        (gender == true && age >= 65) ? pensia = 'da' : pensia = 'no';
+        (gender != true && age >= 60) ? pensia = 'da' : pensia = 'no';
+
+        /* function checkLast(lastName){
+            if (lastName=String){
+                return true;
+            }
+            else {
+                return prompt('ss')
+            }
+         */
+
+        let fio = lastName + " " + name + " " + otc
+
+
+
+
+        alert("ваше ФИО: " + fio + "\n" + "ваш возраст в годах: " + age + "\n" + "ваш возраст в днях: " + day + "\n" + "через 5 лет вам будет: " + dayNext + "\n" + "ваш пол: " + gender + "\n" + "вы на пенсии: " + pensia)
+
+    </script></body></html>
