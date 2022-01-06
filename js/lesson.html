@@ -44,21 +44,21 @@ let sum = [ 5, 7,
 
 
 function f(arr, i){
-  if (i == arr.length)
-    return 0;
-	
-  if (Array.isArray(arr[i]))
-    return f(arr[i], 0) + f(arr, i + 1);
     
-	  
+  if (i == arr.length){
+    return 0;
+  }
+  if (Array.isArray(arr[i])){
+    return f(arr[i], 0) + f(arr, i + 1);
+  }
   return arr[i] + f(arr, i + 1);
   
 }
-let a = f(sum,0)
-
+/* let a = f(sum,0)
+ */
 
 function t4(){
-    f(sum,0);
+
     out2.innerHTML = f(sum,0);
     out2.style.color = 'green';  
     out2.style.display = 'block';
